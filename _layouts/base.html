@@ -23,7 +23,20 @@ common-js:
 <html lang="{{ page.language | default: site.language | default: 'en' }}">
 <!-- Beautiful Jekyll 6.0.1 | Copyright Dean Attali 2023 -->
 {% include head.html %}
+<head>
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ page.share-description | default: site.description }}">
+<meta property="og:image" content="{{ page.share-img | default: site.logo | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
 
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.share-title | default: site.title }}">
+<meta name="twitter:description" content="{{ page.share-description | default: site.description }}">
+<meta name="twitter:image" content="{{ page.share-img | default: site.logo | absolute_url }}">
+</head>
 <body>
   {% include gtm_body.html %}
 
