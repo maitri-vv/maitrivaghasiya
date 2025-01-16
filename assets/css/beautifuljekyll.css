@@ -689,6 +689,9 @@ footer .footer-custom-content {
 .intro-header {
   margin: 5rem 0 1.25rem;
   position: relative;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
 }
 .intro-header.big-img {
   background: no-repeat center center;
@@ -698,7 +701,22 @@ footer .footer-custom-content {
   -o-background-size: cover;
   margin-top: 3.1875rem; /* The small navbar is 50px tall + 1px border */
   margin-bottom: 2.1875rem;
+  height:100vh;
+  max-width: 90%; /* Limits the size of the image/video to 90% of the width */
+  margin-left: auto;
+  margin-right: auto;
 }
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire header area */
+  z-index: -1; /* Keep the video behind the content */
+}
+
 nav.top-nav-short-permanent ~ header > .intro-header {
   margin-top: 5rem;
 }
@@ -731,6 +749,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .intro-header .page-heading h1 {
   margin-top: 0;
   font-size: 3.125rem;
+  font-style:oblique;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;

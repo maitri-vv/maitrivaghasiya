@@ -19,6 +19,10 @@
 <header class="header-section {% if page.cover-img %}has-img{% endif %}">
 <div class="intro-header {% if page.cover-img %} big-img {% endif %}">
   {% if page.cover-img or page.title %}
+  <video autoplay muted loop id="background-video"> <!-- Added video background -->
+    <source src="/assets/img/big-imgs/BG5.MP4" type="video/mp4"> <!-- Video source for background -->
+    Your browser does not support the video tag.
+  </video>
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
