@@ -27,7 +27,7 @@ layout: null
 /* --- General --- */
 
 html {
-  font-size: 100%
+  font-size: 100%;
 }
 
 body {
@@ -45,50 +45,64 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 body > main {
   flex: 1;
 }
+
 p {
   line-height: 1.5;
   margin: 1.875rem 0;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--header-font);
   font-weight: 800;
   line-height: 1.1;
 }
+
 h1 {
   font-size: 2.25rem;
 }
+
 h2 {
   font-size: 1.875rem;
 }
+
 h3 {
   font-size: 1.5rem;
 }
+
 h4 {
   font-size: 1.125rem;
 }
+
 h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
+
 a {
   color: var(--link-col);
 }
+
 a:hover,
 a:focus {
   color: var(--hover-col);
 }
+
 blockquote {
   color: var(--mid-col);
   font-style: italic;
 }
+
 blockquote p:first-child {
   margin-top: 0;
 }
+
 .jumbotron {
   background: #EEE;
 }
+
 hr.small {
   max-width: 6.25rem;
   margin: 1rem auto;
@@ -114,15 +128,18 @@ hr.small {
   background-color: var(--hover-col);
   text-shadow: none;
 }
+
 ::selection {
   color: var(--page-col);
   background-color: var(--hover-col);
   text-shadow: none;
 }
+
 img::selection {
   color: var(--hover-col);
   background: transparent;
 }
+
 img::-moz-selection {
   color: var(--hover-col);
   background: transparent;
@@ -225,6 +242,7 @@ img {
   font-size: 1rem;
   margin: 0.5rem 0;
 }
+
 .navbar-custom .navbar-toggler:focus,
 .navbar-custom .navbar-toggler:hover {
   background-color: initial;
@@ -336,8 +354,9 @@ img {
     padding-left: 2rem;
   }
 }
+
 .navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus ,
+.navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-nav .nav-link:hover,
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
@@ -354,6 +373,7 @@ img {
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
 }
+
 .navbar-custom.top-nav-short .avatar-container {
   opacity: 0;
   visibility: hidden;
@@ -372,6 +392,7 @@ img {
     -moz-box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
   {% endunless %}
 }
+
 .navbar-custom .avatar-container .avatar-img {
   width: 100%;
   {% unless site.round-avatar == false %}

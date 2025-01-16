@@ -24,7 +24,7 @@ navbar-links:
   # Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Author's home: "https://maitri-vv.com"
 
 ################
 # --- Logo --- #
@@ -41,7 +41,8 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+#title-img: /assets/img/maitrivaghasiya.jpg
+
 
 
 #####################################
@@ -52,38 +53,40 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "maitrivaghasiya.iimun@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
-#  medium: yourname
-#  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
-#  bluesky: yourname
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code"
-#  kaggle: yourname
-#  hackerrank: yourname
-#  gitlab: yourname
-#  itchio: yourname
-#  untappd: yourname
+  #facebook: xyz
+  github: maitri-vv
+  twitter: maitrivv
+  #patreon: xyz
+  youtube: "@maitriv"
+  #whatsapp: 15551212
+  medium: maitrivaghasiya
+  #reddit: yourname or r/yoursubreddit
+  linkedin: maitrivaghasiya
+  # xing: yourname
+  # stackoverflow: "3943160/daattali"
+  # snapchat: deanat78
+  instagram: maitri.v
+  # spotify: yourname
+  # telephone: +14159998888
+  # steam: deanat78
+  # twitch: yourname
+  # yelp: yourname
+  # telegram: yourname
+  # calendly: yourname
+  # mastodon: instance.url/@username
+  # bluesky: yourname
+  # ORCID: your ORCID ID
+  # google-scholar: your google scholar
+  discord: "users/mtr.v"
+  # discord: "invite_code" or "users/userid" or "invite/invite_code"
+  # kaggle: yourname
+  # hackerrank: yourname
+  # gitlab: yourname
+  # itchio: yourname
+  # untappd: yourname
+
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
@@ -96,7 +99,8 @@ rss-description: This website is a virtual proof that I'm awesome
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  github: true
+  facebook: false
   linkedin: true
   vk: false
 
@@ -128,7 +132,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "portfolio,tech,blog,keywords,lifestyle,ruby,html"
 
 ######################################
 # --- Colours / background image --- #
@@ -136,24 +140,26 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+page-col: "#F8F9FA"  # (Soft White)  
+text-col: "#000000"  # (Muted Gray)  
+link-col: "#80C7E0"  # (Pastel Sky Blue)  
+hover-col: "#777777"  # (Soft Blush Pink)  
+navbar-col: "#D8E2DC"  # (Light Sage Green)  
+navbar-text-col: "#5A5A5A"  # (Muted Gray)  
+navbar-border-col: "#B7B7B7"  # (Warm Gray)  
+footer-col: "#FCE1E4"  # (Peachy Pink)  
+footer-text-col: "#000000"  # (Medium Gray)  
+footer-link-col: "##FFF5D6"  # (Pastel Sky Blue)  
+footer-hover-col: "#B9A89D"  # (Soft Blush Pink)  
+  
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
+navbar-img: "/assets/img/bgimage.png"
+footer-img: "/assets/img/J.jpg"
+page-img: "/assets/img/R.jpg"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
