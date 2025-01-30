@@ -2,7 +2,6 @@
 layout: page
 title: "About Me"
 subtitle: Exploring, Building, and Innovating
-css: "/assets/css/about.css"
 cover-img:
   - "/assets/img/big-imgs/BG1.jpg" : "Mumbai, India"
   - "/assets/img/big-imgs/BG2.jpg" : "Mumbai, India"

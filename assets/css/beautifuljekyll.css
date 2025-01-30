@@ -33,7 +33,6 @@ layout: null
   background-size: cover;
   background-repeat: repeat-x;
   background-position: center;
-  margin: ;
   border-radius: 20px; /* More rounded edges for a smooth look */
   opacity: 0.8; /* Slight transparency */
   filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.1)); /* Adds soft shadow */
