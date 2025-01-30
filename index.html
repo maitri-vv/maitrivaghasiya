@@ -3,7 +3,7 @@ layout: page
 title: "Maitri's Blog"
 subtitle: Open-Source / WEB DEV / ANDROID
 css: "/assets/css/index.css"
-share-img: /assets/img/maitrivaghasiya.jpg
+share-img: "/assets/img/maitrivaghasiya.jpg"
 share-title: "Maitri Vaghasiya"
 share-description: "Passionate Web Developer and Open-Source Enthusiast. Currently at Accenture India, specializing in Java and scalable web solutions."
 support_promo_box: true
@@ -15,8 +15,16 @@ cover-img:
   - "/assets/img/big-imgs/BG5.MP4" : "Mumbai, India"
   - "/assets/img/big-imgs/BG6.jpg" : "Mumbai, India"
   - "/assets/img/big-imgs/BG7.MP4" : "Mumbai, India"
-    
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ page.css }}">
+</head>
+<body>
 
 <div class="list-filters">
   <a href="/" class="list-filter filter-selected">All posts</a>
@@ -43,7 +51,7 @@ cover-img:
       {% else %}
       {% endif %}
     {% endcapture %}
-    {% assign thumbnail=thumbnail | strip %}
+    {% assign thumbnail = thumbnail | strip %}
 
     {% if site.feed_show_excerpt == false %}
     {% if thumbnail != "" %}
@@ -106,7 +114,7 @@ cover-img:
     </div>
     {% endif %}
 
-   </article>
+  </article>
   {% endfor %}
 </div>
 
@@ -124,3 +132,6 @@ cover-img:
   {% endif %}
 </ul>
 {% endif %}
+
+</body>
+</html>
