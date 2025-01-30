@@ -9,6 +9,12 @@
 # --- Required options --- #
 ############################
 
+
+plugins:
+  - jekyll-headers
+headers:
+  Content-Security-Policy: "script-src 'self' 'unsafe-eval';"
+
 # Name of website
 title: Maitri Vaghasiya
 
