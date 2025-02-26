@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Unlocking Worlds: The Power of Reading"
+title: "First things first!"
 date: 2025-01-18 12:00:00 +0530
 subtitle: Discovering the magic within books
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
+thumbnail-img: /assets/img/thumb2.jpg
 share-img: /assets/img/path.jpg
 gh-repo: maitri-vv/maitrivaghasiya
 gh-badge: [star, fork, follow]
@@ -65,10 +65,12 @@ I’ve compiled a list of books that have left a lasting impact on me:
 - [The Power of Now by Eckhart Tolle](https://powerofnow.maitrivaghasiya.live)  
 - [The Alchemist by Paulo Coelho](https://thealchemist.maitrivaghasiya.live)  
 
+<!--
 📌 **Here's a video that u may love to see!**  
 <div style="text-align: center;">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RAoo--SeUIk?si=8QwHnkPNOM0if4Ps&amp;start=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+-->
 
 ### Why This Blog?
 
