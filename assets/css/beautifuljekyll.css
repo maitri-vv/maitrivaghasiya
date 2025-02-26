@@ -65,13 +65,17 @@ html {
   font-size: 100%;
   max-width: 100vw;
   overflow-x: hidden;
+  font-size: 100%;
+  max-width: 100vw; /* Keep this */
+  overflow-x: hidden; /* Keep this */
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--body-font);
   font-size: 1.125rem;
   color: var(--text-col);
-  position: absolute;
+  
   max-width: 100%;
   width: 100%;
   background-color: var(--page-col);
@@ -84,6 +88,13 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 body > main {
   flex: 1;
