@@ -19,7 +19,7 @@ Hey there! This blog is a space where I share my love for books, the lessons the
 
 If you’ve stumbled across this, welcome! 👋 Let me know your favorite books—I’d love to hear your thoughts! 🚀
 
-![Cozy Reading Nook]({{ '/assets/img/blogs/img1.jpg' | relative_url }}){: .mx-auto.d-block style="width: 50%; height: auto;"}
+![Cozy Reading Nook]({{ '/assets/img/blogs/img1.jpg' | relative_url }}){: .mx-auto.d-block style="width: 60%; height: auto;"}
 
 **Bold Beginnings**: Every great mind has been shaped by books. Whether it's fiction, self-help, or biographies, reading has the power to transform our thoughts and inspire change. Here’s why I believe books are an essential part of life. 😎
 
@@ -45,7 +45,7 @@ That’s just the beginning—let’s explore the deeper impact of books! 🚀
 Here’s how reading influences our lives:
 
 <div style="display: flex; align-items: center; gap: 20px;">
-  <img src="{{ '/assets/img/blogs/img2.webp' | relative_url }}" alt="Reading Benefits" style="width: 400px;">
+  <img src="{{ '/assets/img/blogs/img2.webp' | relative_url }}" alt="Reading Benefits" style="width: 300px;">
   <p style="margin: 0; font-size: 18px;">
     $$ Growth = \frac{\text{Books Read} \times \text{Lessons Learned}}{\text{Time Invested}} $$
   </p>

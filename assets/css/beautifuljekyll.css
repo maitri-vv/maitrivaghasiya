@@ -89,11 +89,6 @@ display: flex;
 flex-direction: column;
 }
 
-img, video, iframe {
-max-width: 100%;
-height: auto;
-display: block;
-}
 
 
 body > main {

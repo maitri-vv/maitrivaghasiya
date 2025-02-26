@@ -1,0 +1,11 @@
+/* Add this section for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .post-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
